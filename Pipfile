@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+biosppy = "*"
+django-tastypie = "*"
+dj-database-url = "*"
+django = "*"
+gunicorn = "*"
+psycopg2 = "*"
+whitenoise = "*"
+requests = "*"
+pymongo = "*"
+djangorestframework = "*"
+pandas = "*"
+numpy = "*"
+scipy = "*"
+scikit-learn = "*"
+"psycopg2-binary" = "*"
+
+[requires]
+python_version = "3.6"
